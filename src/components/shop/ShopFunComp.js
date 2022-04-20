@@ -12,7 +12,7 @@ function ShopFunComp(props) {
   let numberOfUsers = useSelector((state) => state.Users.users);
   return (
     <div>
-      <h1 className="title">Wecome to ShopFunComp</h1>
+      <h1 className="title">Wecome to VShop Functional Component</h1>
       <div className="items">
         <div className="item">
           <p>Asus Notebook</p>

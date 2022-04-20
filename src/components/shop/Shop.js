@@ -7,17 +7,10 @@ import "./Shop.css";
 
 class Shop extends Component {
   render() {
-    const {
-      numberOfLaptops,
-      buyLaptop,
-      numberOfMobiles,
-      buyMobile,
-      numberOfUsers,
-      fetchUsers,
-    } = this.props;
+    const { numberOfLaptops, buyLaptop, numberOfMobiles, buyMobile, numberOfUsers, fetchUsers } = this.props;
     return (
       <div>
-        <h1 className="title"> Welcome to VShop </h1>
+        <h1 className="title"> Welcome to VShop Class Component </h1>
         <div className="items">
           <div className="item">
             <p> Asus Notebook </p>
